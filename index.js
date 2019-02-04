@@ -13,6 +13,6 @@ function deleteFromObjectByKey (recipe, prop2) {
   return delete recip.prop2
 }
 
-function destructivelyDeleteFromObjectByKey (recipe) {
-  return delete recipe.prop2
+function destructivelyDeleteFromObjectByKey (recipe, prop) {
+  return delete recipe.prop
 }
